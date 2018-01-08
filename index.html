@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>To do list</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+
+<body>
+	<div id="myDIV" class="header">
+	  <h2>To Do List</h2>
+	 
+	  	<div class="add-task">
+	  		<input type="text" id="task" placeholder="Enter the task..." onkeypress="onEnter(event)">
+	  		<span id="add" class="addBtn">Add</span>
+	  	</div>
+			<div class="search-task">
+				<input type="text" id="search-task" placeholder="Search task..." onkeyup="searchTask()">
+			</div>
+
+	</div>
+
+	<div id="todos"></div>
+
+<script src="./js/main.js"></script>
+</body>
+</html>

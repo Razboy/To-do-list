@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h2 {
+	font-size: 32px;
+}
+
+ul {
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 14px 8px 12px 30px;
+    background: #F0F0F0;
+    font-size: 18px;
+    transition: 0.3s;
+    margin-top: 20px;
+}
+
+ul li:hover {
+    background: #ddd;
+}
+
+.upbutton {
+	position: absolute;
+    right: 100px;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    padding: 12px 16px 12px 16px;
+    color: #234865;
+    border: none;
+}
+
+.date{
+    position: absolute;
+    right: 180px;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+}
+
+.downbutton {
+	position: absolute;
+    right: 50px;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    padding: 12px 16px 12px 16px;
+    color: #234865;
+    border: none;
+}
+
+.remove {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    border: none;
+}
+
+.remove:hover {
+    background-color: #FF3E3E;
+}
+
+.upbutton:hover,
+.downbutton:hover {
+	background-color: #1F7710;
+}
+
+.header {
+    height: 200px;
+    background-color: #2DBEBD;
+    padding: 30px 40px;
+    color: #FFF;
+    text-align: center;
+}
+.add-task{
+    margin-top: 2%;
+    width: 50%;
+    float: left;
+}
+
+.search-task{
+    margin-top: 2%;
+    width: 50%;
+    float: left;   
+}
+
+.header:after {
+    clear: both;
+}
+
+input {
+    border: none;
+    width: 50%;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.addBtn {
+    padding: 10px;
+    width: 25%;
+    background: #DDD;
+    color: #555;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.addBtn:hover {
+    background-color: #bbb;
+}
